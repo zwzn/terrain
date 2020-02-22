@@ -1,0 +1,31 @@
+{
+  "name": "terrain",
+  "version": "1.0.0",
+  "description": "This is code for generating fantasy maps, using the algorithm behind [@unchartedatlas][uncharted]. For more details, see [these notes][notes].",
+  "main": "terrain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwzn/terrain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwzn/terrain/issues"
+  },
+  "homepage": "https://github.com/zwzn/terrain#readme",
+  "dependencies": {
+    "d3": "^5.15.0",
+    "js-priority-queue": "^0.1.5",
+    "random-seed": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "@types/random-seed": "^0.3.3",
+    "parcel": "^1.12.4",
+    "typescript": "^3.8.2"
+  }
+}
